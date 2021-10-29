@@ -12,7 +12,7 @@ export let ListaDestacadas:Array<Noticias>=[
   { id:100,
     idCategoria:3,
     titulo:"El juego de calamar se convierte en la serie mas visitada de Netflix",
-    autor:"autor noticia 1",
+    autor:"autor noticia",
     fecha:Date().toString(),
     imagen:"imagen1.png",
     texto: "Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque."
@@ -20,7 +20,7 @@ export let ListaDestacadas:Array<Noticias>=[
   { id:101,
     idCategoria:1,
     titulo:"Murio el rinoceronte mas viejo",
-    autor:"autor noticia 2",
+    autor:"autor noticia",
     fecha:Date().toString(),
     imagen:"imagen1.png",
     texto: "conquer template is provided by templatemo for free of charge. You can use this template for any kind of website. No credit link is required. All images by Unsplash. Thank you for visiting our website. please come again!"
@@ -28,7 +28,7 @@ export let ListaDestacadas:Array<Noticias>=[
   { id:102,
     idCategoria:2,
     titulo:"Ciclismo- El regreso de Chris Froomen",
-    autor:"autor noticia 3",
+    autor:"autor noticia",
     fecha:Date().toString(),
     imagen:"imagen1.png",
     texto: "Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis at risus ullamcorper auctor. Praesent quis velit neque. Quisque semper porta nisi vitae suscipit. Duis lectus magna, ornare ac scelerisque."
