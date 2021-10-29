@@ -1,0 +1,25 @@
+<form class="text-center border border-light p-5">
+
+    <p class="h4 mb-4">Servicio al Cliente</p>
+
+    <input type="text" id="defaultContactFormName" class="form-control mb-4" maxlength="60" placeholder="Nombre Completo" required>
+    <input type="number" id="defaultContactFormName" class="form-control mb-4" maxlength="9" placeholder="Telefono" required>
+    <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="Correo Electronico" required>
+
+    <label>Dirigido a:  </label>
+    <select class="browser-default custom-select mb-4" required>
+        <option value="" disabled selected>Seleccione una opción</option>
+        <option value="1">Contenidos</option>
+        <option value="2">Publicidad</option>
+        <option value="3">Sugerencias</option>
+        <option value="4">Suscripciones digitales</option>
+    </select>
+
+    <div class="form-group">
+        <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensaje" required></textarea>
+    </div>
+    <br><br>
+
+    <button mdbBtn color="info" block="true" type="submit">Enviar</button>
+
+</form>

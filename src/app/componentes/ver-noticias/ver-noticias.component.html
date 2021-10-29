@@ -1,0 +1,37 @@
+<div *ngFor="let noticia of ListaDestacadas">
+    <img *ngIf="noticia.id==100" src="/assets/img/1-1.jpg" alt="Image">
+	<img *ngIf="noticia.id==101" src="/assets/img/1-2.jpg" alt="Image">
+	<img *ngIf="noticia.id==102" src="/assets/img/1-3.jpg" alt="Image">
+    <h2>{{noticia.titulo}} | 
+        <span *ngIf="noticia.idCategoria==1" style="color:blue">Mundo</span>
+        <span *ngIf="noticia.idCategoria==2" style="color:darkred">Deportes</span>
+        <span *ngIf="noticia.idCategoria==3" style="color:green">Entretenimiento</span>
+        <span *ngIf="noticia.idCategoria==4" style="color:purple">Economia</span>
+        <span *ngIf="noticia.idCategoria==5" style="color:darkblue">Salud</span>
+        <span *ngIf="noticia.idCategoria==6" style="color:red">Tecnologia</span>
+    </h2>
+    <p>Autor: {{noticia.autor}} || Fecha:{{noticia.fecha}}</p>
+    <p>{{noticia.texto}}</p>
+    <br><br>
+</div>
+<div *ngFor="let noticia of ListaNoticias">
+    <img *ngIf="noticia.id==1" src="/assets/img/4-1.jpg" alt="Image">
+	<img *ngIf="noticia.id==2" src="/assets/img/4-2.jpg" alt="Image">
+	<img *ngIf="noticia.id==3" src="/assets/img/4-3.jpg" alt="Image">
+	<img *ngIf="noticia.id==4" src="/assets/img/4-4.jpg" alt="Image">
+	<img *ngIf="noticia.id==5" src="/assets/img/4-1.jpg" alt="Image">
+	<img *ngIf="noticia.id==6" src="/assets/img/4-2.jpg" alt="Image">
+    <h2>{{noticia.titulo}} | 
+        <span *ngIf="noticia.idCategoria==1" style="color:blue">Mundo</span>
+        <span *ngIf="noticia.idCategoria==2" style="color:darkred">Deportes</span>
+        <span *ngIf="noticia.idCategoria==3" style="color:green">Entretenimiento</span>
+        <span *ngIf="noticia.idCategoria==4" style="color:purple">Economia</span>
+        <span *ngIf="noticia.idCategoria==5" style="color:darkblue">Salud</span>
+        <span *ngIf="noticia.idCategoria==6" style="color:red">Tecnologia</span>
+    </h2>
+    <p>Autor: {{noticia.autor}} || Fecha:{{noticia.fecha}}</p>
+    <p>{{noticia.texto}}</p>
+    <br><br>
+</div>
+
+
